@@ -1,0 +1,617 @@
+21:13:00 **** Build of configuration Debug for project linux_led ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: linux_led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "linux_led.elf"  ./src/helloworld.o   
+'Finished building target: linux_led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size linux_led.elf  |tee "linux_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1139	    576	      8	   1723	    6bb	linux_led.elf
+'Finished building: linux_led.elf.size'
+' '
+21:13:10 **** Incremental Build of configuration Debug for project linux_led ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project led ****
+
+Nothing to build for project led
+11:48:31 **** Auto Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+c:/xilinx/sdk/2017.3/gnu/aarch64/nt/aarch64-linux/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o: In function `_start':
+init.c:(.text+0x30): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [led.elf] Error 1
+11:51:55 **** Auto Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "240", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2079	    608	      8	   2695	    a87	led.elf
+'Finished building: led.elf.size'
+' '
+12:15:32 **** Auto Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2079	    608	      8	   2695	    a87	led.elf
+'Finished building: led.elf.size'
+' '
+12:15:39 **** Auto Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2079	    608	      8	   2695	    a87	led.elf
+'Finished building: led.elf.size'
+' '
+12:15:51 **** Auto Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2079	    608	      8	   2695	    a87	led.elf
+'Finished building: led.elf.size'
+' '
+12:17:09 **** Clean-only build of configuration Debug for project led ****
+make clean 
+rm -rf  ./src/led.o  ./src/led.d  led.elf.size  led.elf
+' '
+12:17:09 **** Clean-only build of configuration Debug for project linux_led ****
+make clean 
+rm -rf  ./src/helloworld.o  ./src/helloworld.d  linux_led.elf.size  linux_led.elf
+' '
+12:17:10 **** Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2079	    608	      8	   2695	    a87	led.elf
+'Finished building: led.elf.size'
+' '
+12:17:11 **** Build of configuration Debug for project linux_led ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: linux_led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "linux_led.elf"  ./src/helloworld.o   
+'Finished building target: linux_led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size linux_led.elf  |tee "linux_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1139	    576	      8	   1723	    6bb	linux_led.elf
+'Finished building: linux_led.elf.size'
+' '
+12:20:56 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:57:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(1000000);
+         ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2171	    616	      8	   2795	    aeb	led.elf
+'Finished building: led.elf.size'
+' '
+12:28:19 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:21:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:22:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:57:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(1000000);
+         ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2171	    616	      8	   2795	    aeb	led.elf
+'Finished building: led.elf.size'
+' '
+12:47:14 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:22:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:23:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:58:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(1000000);
+         ^~~~~
+../src/led.c:8:30: warning: unused variable 'directionfd2' [-Wunused-variable]
+     int valuefd2, exportfd2, directionfd2;
+                              ^~~~~~~~~~~~
+../src/led.c:8:19: warning: unused variable 'exportfd2' [-Wunused-variable]
+     int valuefd2, exportfd2, directionfd2;
+                   ^~~~~~~~~
+../src/led.c:8:9: warning: unused variable 'valuefd2' [-Wunused-variable]
+     int valuefd2, exportfd2, directionfd2;
+         ^~~~~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2171	    616	      8	   2795	    aeb	led.elf
+'Finished building: led.elf.size'
+' '
+12:50:39 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:22:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:24:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:39:9: error: 'directionfd2' undeclared (first use in this function)
+     if (directionfd2 < 0)
+         ^~~~~~~~~~~~
+../src/led.c:39:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/led.c:76:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(1000000);
+         ^~~~~
+make: *** [src/led.o] Error 1
+12:50:49 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:22:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:24:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:76:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(1000000);
+         ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2451	    616	      8	   3075	    c03	led.elf
+'Finished building: led.elf.size'
+' '
+12:51:15 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:22:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:24:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:76:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(10000000);
+         ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2451	    616	      8	   3075	    c03	led.elf
+'Finished building: led.elf.size'
+' '
+12:53:24 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:22:5: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+     write(exportfd, "504", 4);
+     ^~~~~
+../src/led.c:24:5: warning: implicit declaration of function 'close' [-Wimplicit-function-declaration]
+     close(exportfd);
+     ^~~~~
+../src/led.c:76:9: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+         sleep(1);
+         ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2443	    616	      8	   3067	    bfb	led.elf
+'Finished building: led.elf.size'
+' '
+12:54:42 **** Incremental Build of configuration Debug for project led ****
+make all 
+make: Nothing to be done for `all'.
+12:54:57 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2443	    616	      8	   3067	    bfb	led.elf
+'Finished building: led.elf.size'
+' '
+12:55:41 **** Clean-only build of configuration Debug for project led ****
+make clean 
+rm -rf  ./src/led.o  ./src/led.d  led.elf.size  led.elf
+' '
+12:55:41 **** Clean-only build of configuration Debug for project linux_led ****
+make clean 
+rm -rf  ./src/helloworld.o  ./src/helloworld.d  linux_led.elf.size  linux_led.elf
+' '
+12:55:42 **** Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2443	    616	      8	   3067	    bfb	led.elf
+'Finished building: led.elf.size'
+' '
+12:55:43 **** Build of configuration Debug for project linux_led ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: linux_led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "linux_led.elf"  ./src/helloworld.o   
+'Finished building target: linux_led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size linux_led.elf  |tee "linux_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1139	    576	      8	   1723	    6bb	linux_led.elf
+'Finished building: linux_led.elf.size'
+' '
+13:16:48 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2485	    616	      8	   3109	    c25	led.elf
+'Finished building: led.elf.size'
+' '
+13:31:22 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+../src/led.c: In function 'main':
+../src/led.c:75:23: warning: passing argument 2 of 'write' makes pointer from integer without a cast [-Wint-conversion]
+         write(valuefd,1, 2);
+                       ^
+In file included from ../src/led.c:4:0:
+c:\xilinx\sdk\2017.3\gnu\aarch64\nt\aarch64-linux\aarch64-linux-gnu\libc\usr\include\unistd.h:369:16: note: expected 'const void *' but argument is of type 'int'
+ extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur;
+                ^~~~~
+../src/led.c:76:24: warning: passing argument 2 of 'write' makes pointer from integer without a cast [-Wint-conversion]
+         write(valuefd2,1, 2);
+                        ^
+In file included from ../src/led.c:4:0:
+c:\xilinx\sdk\2017.3\gnu\aarch64\nt\aarch64-linux\aarch64-linux-gnu\libc\usr\include\unistd.h:369:16: note: expected 'const void *' but argument is of type 'int'
+ extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur;
+                ^~~~~
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2437	    616	      8	   3061	    bf5	led.elf
+'Finished building: led.elf.size'
+' '
+13:32:18 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2461	    616	      8	   3085	    c0d	led.elf
+'Finished building: led.elf.size'
+' '
+13:33:09 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2485	    616	      8	   3109	    c25	led.elf
+'Finished building: led.elf.size'
+' '
+13:34:06 **** Incremental Build of configuration Debug for project led ****
+make all 
+make: Nothing to be done for `all'.
+13:34:44 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2485	    616	      8	   3109	    c25	led.elf
+'Finished building: led.elf.size'
+' '
+13:35:30 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2485	    616	      8	   3109	    c25	led.elf
+'Finished building: led.elf.size'
+' '
+13:41:03 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2493	    616	      8	   3117	    c2d	led.elf
+'Finished building: led.elf.size'
+' '
+13:42:49 **** Incremental Build of configuration Debug for project led ****
+make all 
+'Building file: ../src/led.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led.o" -MMD -MP -MF"src/led.d" -MT"src/led.o" -o "src/led.o" "../src/led.c"
+'Finished building: ../src/led.c'
+' '
+'Building target: led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "led.elf"  ./src/led.o   
+'Finished building target: led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size led.elf  |tee "led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2451	    616	      8	   3075	    c03	led.elf
+'Finished building: led.elf.size'
+' '
+13:43:29 **** Incremental Build of configuration Debug for project led ****
+make all 
+make: Nothing to be done for `all'.

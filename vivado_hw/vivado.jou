@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.3_AR70530 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sat May 26 11:37:22 2018
+# Process ID: 20440
+# Current directory: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10428
+# Log file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/hdl_projects/avnet_paper/avnet_paper.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/hdl_projects/avnet_paper/avnet_paper.sdk -hwspec C:/hdl_projects/avnet_paper/avnet_paper.sdk/design_1_wrapper.hdf
+open_bd_design {C:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/design_1.bd}
+archive_project C:/hdl_projects/avnet_paper.xpr.zip -temp_dir C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20440-DESKTOP-HQKVQ13 -force -exclude_run_results -include_local_ip_cache

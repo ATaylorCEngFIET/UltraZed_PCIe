@@ -1,0 +1,103 @@
+WARNING: [Common 17-306] Update version (2017.4_AR70530) does not match product version (2017.3).
+#-----------------------------------------------------------
+# Vivado v2017.3_AR70530 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sat May 26 11:37:22 2018
+# Process ID: 20440
+# Current directory: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10428
+# Log file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/aptay/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/hdl_projects/avnet_paper/avnet_paper.xpr
+CRITICAL WARNING: [Board 49-63] Problem parsing preset file - C:/Xilinx/Vivado/2017.3/data/boards/board_files/zcu102/3.0/preset.xml,
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:\Xilinx\Vivado\2017.4\patches\AR70530\vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_ctrl:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_bidir:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_rx:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_tx:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_fab_to_ip:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_ip_to_pins:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml'
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:33 . Memory (MB): peak = 1189.688 ; gain = 474.672
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/hdl_projects/avnet_paper/avnet_paper.sdk -hwspec C:/hdl_projects/avnet_paper/avnet_paper.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/hdl_projects/avnet_paper/avnet_paper.sdk -hwspec C:/hdl_projects/avnet_paper/avnet_paper.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {C:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:zynq_ultra_ps_e:3.1 - zynq_ultra_ps_e_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_100M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <design_1> from BD file <C:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1189.688 ; gain = 0.000
+archive_project C:/hdl_projects/avnet_paper.xpr.zip -temp_dir C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20440-DESKTOP-HQKVQ13 -force -exclude_run_results -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20440-DESKTOP-HQKVQ13' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:\Xilinx\Vivado\2017.4\patches\AR70530\vivado/data/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_ctrl:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ctrl.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_bidir:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_bidir.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_rx:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_rx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_data_tx:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_data_tx.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_fab_to_ip:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_fab_to_ip.xml'
+WARNING: [IP_Flow 19-4830] Duplicate Interface found for 'xilinx.com:display_high_speed_selectio_wiz:hssio_ip_to_pins:1.0'. The one found in location 'c:/Xilinx/Vivado/2017.4/patches/AR70530/vivado/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml' will take precedence over the same Interface in location 'c:/Xilinx/Vivado/2017.3/data/ip/xilinx/high_speed_selectio_wiz_v3_2/interfaces/hssio_ip_to_pins.xml'
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/aptay/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20440-DESKTOP-HQKVQ13/PrjAr/_X_'.
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_rst_ps8_0_100M_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps8_0_100M_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_xbar_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_axi_gpio_1_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_1_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_auto_ds_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_ds_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_zynq_ultra_ps_e_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_zynq_ultra_ps_e_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_auto_pc_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'design_1_axi_gpio_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_0_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps8_0_100M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_ds_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_zynq_ultra_ps_e_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_auto_pc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_gpio_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_auto_ds_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_auto_ds_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_auto_pc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_gpio_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps8_0_100M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps8_0_100M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sources_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

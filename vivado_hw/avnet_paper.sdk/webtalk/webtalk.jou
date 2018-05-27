@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3_AR70530 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# 
+# Start of session at: Sat May 26 18:25:11 2018
+# Process ID: 10952
+# Current directory: C:/hdl_projects/avnet_paper/avnet_paper.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/hdl_projects/avnet_paper/avnet_paper.sdk/webtalk/webtalk.log
+# Journal file: C:/hdl_projects/avnet_paper/avnet_paper.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,64 @@
+
+*** Running vivado
+    with args -log design_1_rst_ps8_0_100M_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_rst_ps8_0_100M_0.tcl
+
+WARNING: [Common 17-306] Update version (2017.4_AR70530) does not match product version (2017.3).
+
+****** Vivado v2017.3_AR70530 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_rst_ps8_0_100M_0.tcl -notrace
+CRITICAL WARNING: [Board 49-63] Problem parsing preset file - C:/Xilinx/Vivado/2017.3/data/boards/board_files/zcu102/3.0/preset.xml,
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 734.906 ; gain = 0.000
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps8_0_100M_0' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_100M_0/synth/design_1_rst_ps8_0_100M_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (1#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:50689]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (2#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (3#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (4#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (5#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (6#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'design_1_rst_ps8_0_100M_0' (7#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_100M_0/synth/design_1_rst_ps8_0_100M_0.vhd:74]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 734.906 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 734.906 ; gain = 0.000
+INFO: [Device 21-403] Loading part xczu3eg-sfva625-1-i
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1243.566 ; gain = 0.004
+Finished Constraint Validation : Time (s): cpu = 00:01:11 ; elapsed = 00:01:27 . Memory (MB): peak = 1243.566 ; gain = 508.660
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:11 ; elapsed = 00:01:27 . Memory (MB): peak = 1243.566 ; gain = 508.660
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:27 . Memory (MB): peak = 1243.566 ; gain = 508.660
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:11 ; elapsed = 00:01:27 . Memory (MB): peak = 1243.566 ; gain = 508.660
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:28 . Memory (MB): peak = 1243.566 ; gain = 508.660
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:59 ; elapsed = 00:02:25 . Memory (MB): peak = 2043.801 ; gain = 1308.895
+Finished Timing Optimization : Time (s): cpu = 00:01:59 ; elapsed = 00:02:25 . Memory (MB): peak = 2043.875 ; gain = 1308.969
+Finished Technology Mapping : Time (s): cpu = 00:01:59 ; elapsed = 00:02:25 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+Finished IO Insertion : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     9|
+|3     |LUT3  |     1|
+|4     |LUT4  |     6|
+|5     |LUT5  |     3|
+|6     |LUT6  |     1|
+|7     |SRL16 |     1|
+|8     |FDR   |     8|
+|9     |FDRE  |    28|
+|10    |FDSE  |     4|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:01 ; elapsed = 00:02:27 . Memory (MB): peak = 2063.430 ; gain = 1328.523
+synth_design: Time (s): cpu = 00:02:04 ; elapsed = 00:02:31 . Memory (MB): peak = 2081.789 ; gain = 1346.883

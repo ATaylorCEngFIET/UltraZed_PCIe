@@ -1,0 +1,21 @@
+12:55:43 **** Build of configuration Debug for project linux_led ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 Linux gcc compiler'
+aarch64-linux-gnu-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: linux_led.elf'
+'Invoking: ARM v8 Linux gcc linker'
+aarch64-linux-gnu-gcc  -o "linux_led.elf"  ./src/helloworld.o   
+'Finished building target: linux_led.elf'
+' '
+'Invoking: ARM v8 Linux Print Size'
+aarch64-linux-gnu-size linux_led.elf  |tee "linux_led.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   1139	    576	      8	   1723	    6bb	linux_led.elf
+'Finished building: linux_led.elf.size'
+' '
+
+12:55:43 Build Finished (took 704ms)
+

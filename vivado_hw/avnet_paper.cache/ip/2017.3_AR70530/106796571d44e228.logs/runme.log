@@ -1,0 +1,52 @@
+
+*** Running vivado
+    with args -log design_1_zynq_ultra_ps_e_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_zynq_ultra_ps_e_0_0.tcl
+
+WARNING: [Common 17-306] Update version (2017.4_AR70530) does not match product version (2017.3).
+
+****** Vivado v2017.3_AR70530 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_zynq_ultra_ps_e_0_0.tcl -notrace
+CRITICAL WARNING: [Board 49-63] Problem parsing preset file - C:/Xilinx/Vivado/2017.3/data/boards/board_files/zcu102/3.0/preset.xml,
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 735.297 ; gain = 0.000
+INFO: [Synth 8-638] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/synth/design_1_zynq_ultra_ps_e_0_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'zynq_ultra_ps_e_v3_1_0_zynq_ultra_ps_e' [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_1_0.v:280]
+INFO: [Synth 8-638] synthesizing module 'BUFG_PS' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:796]
+INFO: [Synth 8-256] done synthesizing module 'BUFG_PS' (1#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:796]
+INFO: [Synth 8-638] synthesizing module 'PS8' [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:41805]
+INFO: [Synth 8-256] done synthesizing module 'PS8' (2#1) [C:/Xilinx/Vivado/2017.3/scripts/rt/data/unisim_comp.v:41805]
+INFO: [Synth 8-256] done synthesizing module 'zynq_ultra_ps_e_v3_1_0_zynq_ultra_ps_e' (3#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/hdl/zynq_ultra_ps_e_v3_1_0.v:280]
+INFO: [Synth 8-256] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (4#1) [c:/hdl_projects/avnet_paper/avnet_paper.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/synth/design_1_zynq_ultra_ps_e_0_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 735.297 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 735.297 ; gain = 0.000
+INFO: [Device 21-403] Loading part xczu3eg-sfva625-1-i
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1192.301 ; gain = 0.004
+Finished Constraint Validation : Time (s): cpu = 00:01:15 ; elapsed = 00:01:29 . Memory (MB): peak = 1192.301 ; gain = 457.004
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:15 ; elapsed = 00:01:29 . Memory (MB): peak = 1192.301 ; gain = 457.004
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:15 ; elapsed = 00:01:29 . Memory (MB): peak = 1192.301 ; gain = 457.004
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:16 ; elapsed = 00:01:30 . Memory (MB): peak = 1192.301 ; gain = 457.004
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:18 ; elapsed = 00:01:32 . Memory (MB): peak = 1192.301 ; gain = 457.004
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:08 ; elapsed = 00:02:31 . Memory (MB): peak = 3060.469 ; gain = 2325.172
+Finished Timing Optimization : Time (s): cpu = 00:02:08 ; elapsed = 00:02:31 . Memory (MB): peak = 3086.598 ; gain = 2351.301
+Finished Technology Mapping : Time (s): cpu = 00:02:16 ; elapsed = 00:02:40 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+Finished IO Insertion : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG_PS |     1|
+|2     |LUT1    |   296|
+|3     |PS8     |     1|
+|4     |FDRE    |     1|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:23 ; elapsed = 00:02:48 . Memory (MB): peak = 3108.457 ; gain = 2373.160
+synth_design: Time (s): cpu = 00:02:27 ; elapsed = 00:02:53 . Memory (MB): peak = 3121.203 ; gain = 2385.906
